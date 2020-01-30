@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="pie"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="pie-plus"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="pie" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- General repos -->
+  <project path="crowdin" name="crowdin" remote="pixel-plus" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/themes" name="vendor_themes" remote="pixel-plus" />
+
+</manifest>
